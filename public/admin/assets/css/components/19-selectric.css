@@ -1,0 +1,63 @@
+/* 1.19 Selectric */
+.selectric {
+    background-color: #fdfdff;
+    border-color: #e4e6fc;
+    min-height: 42px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.selectric:hover {
+    background-color: #fdfdff;
+    border-color: #e4e6fc;
+}
+
+.selectric:focus {
+    background-color: #fefeff;
+    border-color: #95a0f4;
+}
+
+.selectric .label {
+    font-size: 13px;
+    background-color: transparent;
+    line-height: 44px;
+    min-height: 42px;
+}
+
+.selectric .button {
+    background-color: transparent;
+    line-height: 44px;
+    min-height: 42px;
+}
+
+.selectric-open .selectric {
+    border-color: #006FEB;
+}
+
+.selectric-above .selectric-items,
+.selectric-below .selectric-items {
+    margin-bottom: 10px;
+}
+
+.selectric-items {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    border-radius: 3px;
+    background-color: #fff;
+    border: none;
+}
+
+.selectric-items li {
+    font-size: 13px;
+    padding: 10px 15px;
+}
+
+.selectric-items li:hover {
+    background-color: #f2f2f2;
+}
+
+.selectric-items li.selected,
+.selectric-items li.highlighted {
+    background-color: #006FEB;
+    color: #fff;
+}

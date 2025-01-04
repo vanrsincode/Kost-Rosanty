@@ -1,0 +1,73 @@
+/* 1.30 Weather */
+.weather .weather-icon {
+    float: left;
+    width: 150px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.weather .weather-icon span {
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.weather .weather-desc {
+    margin-left: 160px;
+}
+
+.weather .weather-desc h4 {
+    font-size: 70px;
+    font-weight: 200;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    line-height: 56px;
+}
+
+.weather .weather-desc .weather-text {
+    font-size: 12px;
+    color: #34395e;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.weather .weather-desc ul {
+    margin: 15px 0 13px 0;
+    padding: 0;
+}
+
+.weather ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    line-height: 1;
+    border-radius: 3px;
+    border: 2px solid #006FEB;
+    font-size: 10px;
+    font-weight: 500;
+    color: #006FEB;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 575.98px) {
+    .weather {
+        text-align: center;
+    }
+
+    .weather .weather-icon {
+        float: none;
+        width: auto;
+    }
+
+    .weather .weather-icon span {
+        margin-top: 20px;
+    }
+
+    .weather .weather-desc {
+        margin-left: 0;
+    }
+}

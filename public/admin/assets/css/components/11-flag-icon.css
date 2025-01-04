@@ -1,0 +1,11 @@
+/* 1.11 Flag Icon */
+.flag-icon {
+    width: 50px;
+    height: 35px;
+    display: inline-block;
+    background-size: 100%;
+}
+
+.flag-icon.flag-icon-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+}

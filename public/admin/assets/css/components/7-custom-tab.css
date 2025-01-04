@@ -1,0 +1,8 @@
+/* 1.7 Custom Tab */
+[data-tab-group] {
+    display: none;
+}
+
+[data-tab-group].active {
+    display: block;
+}

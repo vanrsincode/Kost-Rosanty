@@ -1,0 +1,9 @@
+{
+    "errorLoading": "Gagal mengambil hasil",
+    "inputTooLong": "Silakan hapus karakter",
+    "inputTooShort": "Silakan masukkan karakter atau lebih",
+    "loadingMore": "Mengambil lebih banyak hasil…",
+    "maximumSelected": "Anda hanya dapat memilih pilihan",
+    "noResults": "Tidak ada hasil yang ditemukan",
+    "searching": "Mencari…"
+}

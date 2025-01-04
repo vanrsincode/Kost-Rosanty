@@ -1,0 +1,39 @@
+/* 1.31 Weather Icon */
+.icon-wrap {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 25px;
+    width: 25%;
+}
+
+.icon-wrap .icon {
+    float: left;
+    width: 40px;
+    font-family: "weathericons";
+    font-size: 20px;
+}
+
+.icon-wrap .icon_unicode {
+    width: 100%;
+    padding-left: 45px;
+    color: #34395e;
+}
+
+.new-icons ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.new-icons ul li {
+    padding: 10px;
+}
+
+.icon-wrap .icon,
+.new-icons ul li .wi {
+    font-size: 24px;
+    margin-right: 15px;
+    width: 30px;
+    text-align: center;
+}

@@ -1,0 +1,102 @@
+/* 1.39 Pricing */
+.pricing {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+    border-radius: 3px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.pricing.pricing-highlight .pricing-title {
+    background-color: #006FEB;
+    color: #fff;
+}
+
+.pricing.pricing-highlight .pricing-cta a {
+    background-color: #006FEB;
+    color: #fff;
+}
+
+.pricing.pricing-highlight .pricing-cta a:hover {
+    background-color: #394eea !important;
+}
+
+.pricing .pricing-padding {
+    padding: 40px;
+}
+
+.pricing .pricing-title {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background-color: #f3f6f8;
+    color: #006FEB;
+    border-radius: 0 0 3px 3px;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.pricing .pricing-price {
+    margin-bottom: 45px;
+}
+
+.pricing .pricing-price div:first-child {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.pricing .pricing-details {
+    text-align: left;
+    display: inline-block;
+}
+
+.pricing .pricing-details .pricing-item {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.pricing .pricing-details .pricing-item .pricing-item-icon {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #47c363;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.pricing .pricing-details .pricing-item .pricing-item-icon i {
+    font-size: 11px;
+}
+
+.pricing .pricing-cta {
+    margin-top: 20px;
+}
+
+.pricing .pricing-cta a {
+    display: block;
+    padding: 20px 40px;
+    background-color: #f3f6f8;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 0 0 3px 3px;
+}
+
+.pricing .pricing-cta a .fas,
+.pricing .pricing-cta a .far,
+.pricing .pricing-cta a .fab,
+.pricing .pricing-cta a .fal,
+.pricing .pricing-cta a .ion {
+    margin-left: 5px;
+}
+
+.pricing .pricing-cta a:hover {
+    background-color: #e3eaef;
+}

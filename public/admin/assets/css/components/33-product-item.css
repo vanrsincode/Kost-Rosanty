@@ -1,0 +1,34 @@
+/* 1.33 Product */
+.product-item {
+    text-align: center;
+}
+
+.product-item .product-image {
+    display: inline-block;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.product-item .product-name {
+    color: #34395e;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.product-item .product-review {
+    color: #ffa426;
+    margin-bottom: 3px;
+}
+
+.product-item .product-cta {
+    margin-top: 5px;
+}
+
+.product-item .product-cta a {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

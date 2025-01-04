@@ -1,0 +1,53 @@
+/* 1.2 Author */
+.author-box .author-box-left {
+    float: left;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.author-box .author-box-left .btn {
+    padding: 5px 15px;
+    font-size: 12px;
+    border-radius: 30px;
+}
+
+.author-box .author-box-picture {
+    width: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+}
+
+.author-box .author-box-details {
+    margin-left: 135px;
+}
+
+.author-box .author-box-name {
+    font-size: 18px;
+}
+
+.author-box .author-box-name a {
+    font-weight: 600;
+}
+
+.author-box .author-box-job {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    color: #34395e;
+}
+
+.author-box .author-box-description {
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+@media (max-width: 575.98px) {
+    .author-box .author-box-left {
+        float: none;
+    }
+
+    .author-box .author-box-details {
+        margin-left: 0;
+        margin-top: 15px;
+        text-align: center;
+    }
+}

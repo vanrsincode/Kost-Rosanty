@@ -1,0 +1,39 @@
+/* 1.22 Statistics */
+.statistic-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.statistic-details .statistic-details-item {
+    flex: 1;
+    padding: 17px 10px;
+    text-align: center;
+}
+
+.statistic-details .statistic-details-item .detail-chart {
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.statistic-details .statistic-details-item .detail-name {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #34395e;
+    letter-spacing: 0.3px;
+}
+
+.statistic-details .statistic-details-item .detail-value {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@media (max-width: 575.98px) {
+    .statistic-details {
+        flex-wrap: wrap;
+    }
+
+    .statistic-details .statistic-details-item {
+        flex: initial;
+        width: 50%;
+    }
+}

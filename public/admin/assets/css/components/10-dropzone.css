@@ -1,0 +1,32 @@
+/* 1.10 Dropzone */
+.dropzone {
+    border: 2px dashed #006FEB;
+    min-height: 240px;
+    text-align: center;
+}
+
+.dropzone .dz-message {
+    font-size: 24px;
+    color: #34395e;
+    margin: 3.4em;
+}
+
+.dropzone .dz-preview .dz-details {
+    padding: 2.2em 1em;
+}
+
+.dropzone .dz-preview .dz-image {
+    border-radius: 3px;
+}
+
+@media (max-width: 575.98px) {
+    .dropzone .dz-message {
+        margin: 2em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .dropzone .dz-message {
+        margin: 2.75em;
+    }
+}

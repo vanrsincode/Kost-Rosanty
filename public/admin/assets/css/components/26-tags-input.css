@@ -1,0 +1,29 @@
+/* 1.26 Tags Input */
+.bootstrap-tagsinput {
+    background-color: #fdfdff;
+    border-color: #e4e6fc;
+    display: block;
+    height: 46px;
+    box-shadow: none;
+    overflow: auto;
+}
+
+.bootstrap-tagsinput input {
+    height: 100%;
+    padding: 0 8px;
+}
+
+.bootstrap-tagsinput .tag {
+    background-color: #006FEB;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.bootstrap-tagsinput .tag:first-child {
+    margin-left: 5px;
+}
+
+.bootstrap-tagsinput:focus {
+    background-color: #fefeff;
+    border-color: #95a0f4;
+}
